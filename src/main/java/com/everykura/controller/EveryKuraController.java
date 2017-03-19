@@ -11,13 +11,13 @@ public class EveryKuraController {
 
 	@RequestMapping(method = RequestMethod.GET)
 	public String helloEveryKura(ModelMap model){
-		model.addAttribute("greeting", "Hello World from Spring 4 MVC");
+		model.addAttribute("greeting", "Hello World from Pash");
 		return "welcome";
 	}
 	
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public String welcomeToEveryKura(ModelMap model){
-		model.addAttribute("greeting", "Hello World from Spring 4 MVC");
+		model.addAttribute("greeting", "Hello World from Pash");
 		return "welcome";
 	}
 	
